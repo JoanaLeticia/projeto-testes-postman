@@ -1,0 +1,219 @@
+{
+	"id": "8586da69-e974-4522-8406-babe04ab3a22",
+	"name": "Testes JSONPlaceholder",
+	"timestamp": "2025-05-19T23:03:50.016Z",
+	"collection_id": "27782867-239612e8-633d-43ab-90ab-44be74a4f743",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-19T23:03:47.661Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e083af8e-8875-4db2-b2c3-a2d306508a37",
+			"name": "/posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 52,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Tem Content-Type JSON": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tem Content-Type JSON": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Tem Content-Type JSON": true
+				}
+			]
+		},
+		{
+			"id": "3a8de6b4-50ad-4dab-b8f3-a4c3b7a15dbe",
+			"name": "/posts/1",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Tem Content-Type JSON": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tem Content-Type JSON": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				50
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Tem Content-Type JSON": true
+				}
+			]
+		},
+		{
+			"id": "822e00b2-0679-4a9d-8d5f-2c6eb12aeac1",
+			"name": "/posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 415,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code é 201": true,
+				"Tem Content-Type JSON": true,
+				"Corpo da resposta tem o campo 'title'": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tem Content-Type JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo da resposta tem o campo 'title'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				415
+			],
+			"allTests": [
+				{
+					"Status code é 201": true,
+					"Tem Content-Type JSON": true,
+					"Corpo da resposta tem o campo 'title'": true
+				}
+			]
+		},
+		{
+			"id": "5844d58d-9d2f-4787-a21e-31c853f6900f",
+			"name": "/posts/1",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 418,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Tem Content-Type JSON": true,
+				"Corpo da resposta tem o campo 'title'": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tem Content-Type JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo da resposta tem o campo 'title'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				418
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Tem Content-Type JSON": true,
+					"Corpo da resposta tem o campo 'title'": true
+				}
+			]
+		},
+		{
+			"id": "9fbea9a0-0f59-48d8-81c9-83b9153c5816",
+			"name": "/posts/1",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 402,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Tem Content-Type JSON": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tem Content-Type JSON": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				402
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Tem Content-Type JSON": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1337,
+	"collection": {
+		"requests": [
+			{
+				"id": "e083af8e-8875-4db2-b2c3-a2d306508a37",
+				"method": "GET"
+			},
+			{
+				"id": "3a8de6b4-50ad-4dab-b8f3-a4c3b7a15dbe",
+				"method": "GET"
+			},
+			{
+				"id": "822e00b2-0679-4a9d-8d5f-2c6eb12aeac1",
+				"method": "POST"
+			},
+			{
+				"id": "5844d58d-9d2f-4787-a21e-31c853f6900f",
+				"method": "PUT"
+			},
+			{
+				"id": "9fbea9a0-0f59-48d8-81c9-83b9153c5816",
+				"method": "DELETE"
+			}
+		]
+	}
+}
